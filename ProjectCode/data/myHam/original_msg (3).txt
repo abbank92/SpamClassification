@@ -1,0 +1,39 @@
+MIME-Version: 1.0
+Received: by 10.100.153.17 with HTTP; Tue, 26 Dec 2017 14:43:32 -0800 (PST)
+Date: Tue, 26 Dec 2017 17:43:32 -0500
+Delivered-To: abbank92@gmail.com
+Message-ID: <CANCQb3BE5+eF1LJ4zOfbq6+vuExFrXyBrASsDdU9DQY52-eMLA@mail.gmail.com>
+Subject: Winter Break Training
+From: Alex Bank <abbank92@gmail.com>
+To: Norie Hammond <nhammond@peddie.org>
+Content-Type: multipart/alternative; boundary="f403043819ac271f2c0561460365"
+
+--f403043819ac271f2c0561460365
+Content-Type: text/plain; charset="UTF-8"
+
+Hi Norie,
+
+When you get a chance, I would be super appreciative if you could send me
+the workout schedule for this week. I'm looking forward to seeing all of
+you!
+
+I came down with some virus over Christmas, and I'm still getting over it,
+but I'm hoping to get back in the pool as soon as possible.
+
+Hope you had a good holiday season and hope to see you soon,
+
+Alex
+
+--f403043819ac271f2c0561460365
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Norie,<div><br></div><div>When you get a chance, I woul=
+d be super appreciative if you could send me the workout schedule for this =
+week. I&#39;m looking forward to seeing all of you!</div><div><br></div><di=
+v>I came down with some virus over Christmas, and I&#39;m still getting ove=
+r it, but I&#39;m hoping to get back in the pool as soon as possible.</div>=
+<div><br></div><div>Hope you had a good holiday season and hope to see you =
+soon,</div><div><br></div><div>Alex</div></div>
+
+--f403043819ac271f2c0561460365--

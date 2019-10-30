@@ -1,0 +1,12 @@
+---
+title: "Spam Classification"
+author: "Alex Bank"
+output: pdf_document
+---
+
+To get started with this exploration of Spam Classification, here's a one-line command that prints the number of files in each of the five email directories.
+```{r}
+sapply(list.files("data/messages"), function(x) length(list.files(paste0("data/messages/", x))))
+```
+
+

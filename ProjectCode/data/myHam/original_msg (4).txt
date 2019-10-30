@@ -1,0 +1,245 @@
+Delivered-To: abb3@williams.edu
+Received: by 2002:a4f:d241:0:0:0:0:0 with SMTP id r59-v6csp669727ivj;
+        Mon, 14 May 2018 17:01:25 -0700 (PDT)
+X-Google-Smtp-Source: AB8JxZqUoszX5thWBDVzOU+jecW9q4votGs7pipRYGl6iaXepoLhsO6zmzg/GvImDx3YYhNOhaMA
+X-Received: by 2002:ac8:2b37:: with SMTP id 52-v6mr11056341qtu.97.1526342485900;
+        Mon, 14 May 2018 17:01:25 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1526342485; cv=none;
+        d=google.com; s=arc-20160816;
+        b=pn7/xHyoA3ssLNjQAHKg5kxyYacecdzC4QRHLiQR9v28R2t8hsTepHXm20qaFecQ9s
+         ttdUJkcax16v1vffm4A22OW6D5nnWO8MyRDeQqBUpKXI0zF4PCi/PcF61g1VjX8jD0R9
+         Obn76UMcBIuVK+eq8g+wdyv9uSlgF348M12M8VNUVcCFPqBLTXq+KiIXPjRcMYoYdzkv
+         ELW/0lUdD39SruzUUw19yHoYHmjhEIMzk2PsYGDAT0a1W04ItgrmNbb08Kd8EkHKyUrY
+         CiLyqh01T0oygBptlGEWncpn8Wmepli7a0bTXf+trW2SG6k/5HISA9n/u7PQR3FlvjNV
+         2flA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=sender:errors-to:list-subscribe:list-help:list-post
+         :list-unsubscribe:list-id:precedence:subject:to:date:message-id
+         :mime-version:from:dkim-signature:dkim-signature:dkim-signature
+         :arc-authentication-results;
+        bh=szvdgv8AxCenSinJjWnLGbnq2D6OhP/T2nSEowtzhs0=;
+        b=AjFV0JCykismeDDhPt+BF5rn63K4I7qAHUKoIJoS9rmcBmaApihBxxG+ehGs96HZuc
+         66GvFmy7jNm3ECg5zWiffpngxdz13Z1EJJaXW4mcDfxRN+GXUmH/hkKlvI9ahH75X3Y2
+         da35UjxbkmUJhty/ippHzoPByttEYahDwL6KvETXcH3i6b989TJ1zI2KQeJJKpzroDsq
+         tOSsS/rd1x8ruRITkfqjQBq7VvWRBZR1s9HtOHIu/aCqFBehg5SPxnuYwmHz73NAN5sH
+         NJxgisqaRnsqPEH0XRl5vgvZq+92lxxGQ1GIzPT99czJ6NkObTaCpO1YW1wOIu2L3ya2
+         I60Q==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@williams.edu header.s=ironport header.b=ttA4hAei;
+       dkim=temperror (no key for signature) header.i=@wso.williams.edu header.s=default header.b=Ybpbg3qu;
+       dkim=neutral (body hash did not verify) header.i=@williams.edu header.s=google header.b=RRXHpgYl;
+       spf=pass (google.com: domain of swimdive-bounces@wso.williams.edu designates 137.165.30.35 as permitted sender) smtp.mailfrom=swimdive-bounces@wso.williams.edu
+Return-Path: <swimdive-bounces@wso.williams.edu>
+Received: from ironport-mail.williams.edu (ironport-mail.williams.edu. [137.165.4.27])
+        by mx.google.com with ESMTPS id i189-v6si7985qkd.225.2018.05.14.17.01.20
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Mon, 14 May 2018 17:01:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of swimdive-bounces@wso.williams.edu designates 137.165.30.35 as permitted sender) client-ip=137.165.30.35;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@williams.edu header.s=ironport header.b=ttA4hAei;
+       dkim=temperror (no key for signature) header.i=@wso.williams.edu header.s=default header.b=Ybpbg3qu;
+       dkim=neutral (body hash did not verify) header.i=@williams.edu header.s=google header.b=RRXHpgYl;
+       spf=pass (google.com: domain of swimdive-bounces@wso.williams.edu designates 137.165.30.35 as permitted sender) smtp.mailfrom=swimdive-bounces@wso.williams.edu
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=williams.edu; s=ironport;
+  h=from:mime-version:message-id:date:to:subject:list-id:
+   list-unsubscribe:list-post:list-help:list-subscribe:
+   sender;
+  bh=szvdgv8AxCenSinJjWnLGbnq2D6OhP/T2nSEowtzhs0=;
+  b=ttA4hAeit+ON/DMqIvnLZdXoM2YQ+Tjsd7mF1W/UnGNdDolsROp443e5
+   CdPn0N60VsJdupSL7PtqHgNaTzF7JoiyRGPgs6/3Nh5b7Bz3YcjRnY1WD
+   8wT9s2ynN3WigR75DHziPMECey8ERL1sIdOltYhBiqcfPGJREeDez2tVZ
+   0=;
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A2CjEAAZ3N9Z/yMepYlbAw4PAQUBCwGDEUxkgRUBg3mZUUMBAQUBgSeQdIdSCRgBCoRJhRBXAQIBAQEBAQJrKIUlAQEgHQEBBAoeDAIDAQIGAg46BAICAwEjDQEFATUFigwNAQ+fFkCLIWuCJ4MJAQEFhQMBB4MhDAEdCBKDG4IHgQmCXYhLBYJHL4IygTIBoBQCh16YXRGHLo9LgmaDDQIEAgQFAgYUJIFsgQ56XBIBY4IRggSBU1taAQGLVQEBAQ
+X-IPAS-Result: A2CjEAAZ3N9Z/yMepYlbAw4PAQUBCwGDEUxkgRUBg3mZUUMBAQUBgSeQdIdSCRgBCoRJhRBXAQIBAQEBAQJrKIUlAQEgHQEBBAoeDAIDAQIGAg46BAICAwEjDQEFATUFigwNAQ+fFkCLIWuCJ4MJAQEFhQMBB4MhDAEdCBKDG4IHgQmCXYhLBYJHL4IygTIBoBQCh16YXRGHLo9LgmaDDQIEAgQFAgYUJIFsgQ56XBIBY4IRggSBU1taAQGLVQEBAQ
+X-IronPort-AV: E=Sophos;i="5.43,368,1503374400"; 
+   d="scan'208,217";a="481435034"
+Received: from wso-vm.williams.edu ([137.165.30.35])
+  by mailrelay.williams.edu with ESMTP; 14 May 2018 20:01:16 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=wso.williams.edu; s=default; h=Sender:Content-Type:List-Subscribe:List-Help
+	:List-Post:List-Unsubscribe:List-Id:Subject:To:Date:Message-Id:Mime-Version:
+	From:Reply-To:Cc:Content-Transfer-Encoding:Content-ID:Content-Description:
+	Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:
+	In-Reply-To:References:List-Owner:List-Archive;
+	bh=szvdgv8AxCenSinJjWnLGbnq2D6OhP/T2nSEowtzhs0=; b=Ybpbg3quxxIMUvphtaf44p7HYJ
+	vupm5JX5wV+8lA1Bc3Z8VmAe+0p8qPoVyY+AivfIMj15YixqNtxwMqWKwEniWzpkahBXO/c+LninL
+	BA4vaKKAFNExoOfnq0alZXFm/mNRx34O9y/yn/MRGfN3156i85nEt+fQrmt4U/JKZs3lGxZoDHAPO
+	BDOG5T6UlwI708HaZaZvSihyO23srEO45YUpEKRMpzrmCwjW0TeOqrREMigomVle8ax8wGPX4QnNj
+	h6Rk9PnQ2Mrp03dJtJ/Kb52d9M+OhoVNPK5n1jkKu5xb2VCMlSZA9GAKujUSa1kOiio1Ub06GfM0I
+	nCMiqWbg==;
+Received: from [::1] (port=40502 helo=wso-vm.williams.edu)
+	by wso-vm.williams.edu with esmtp (Exim 4.90_1)
+	(envelope-from <swimdive-bounces@wso.williams.edu>)
+	id 1fINP1-0008Uz-1d; Mon, 14 May 2018 20:01:15 -0400
+Received: from ironport-mail.williams.edu ([137.165.4.27]:28016)
+ by wso-vm.williams.edu with esmtps (TLSv1:ECDHE-RSA-AES256-SHA:256)
+ (Exim 4.90_1) (envelope-from <tmk3@williams.edu>) id 1fINP0-0008Us-Iy
+ for swimdive@wso.williams.edu; Mon, 14 May 2018 20:01:14 -0400
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A0DTAQAZ3N9Zf6zYVdFbAw4QBgyFVoN6mVFDAQEGkhuHUQEJiXxXAQIBAQEBAQITAQEJCwsIJjGFRx0BATgePgI2AQUBFh+KEQ2fJkCLIWuCJ4MJAQEFhQMBB4MhCwEBARwICQEIgxuCB4EJgl2ISwWCRy+CMoEyAaAUAqA7EYcuj0uCZoMNAgQCBAUCBhQkgRWBZXpuAWOCEYIEgVNbWotXAQEB
+X-IPAS-Result: A0DTAQAZ3N9Zf6zYVdFbAw4QBgyFVoN6mVFDAQEGkhuHUQEJiXxXAQIBAQEBAQITAQEJCwsIJjGFRx0BATgePgI2AQUBFh+KEQ2fJkCLIWuCJ4MJAQEFhQMBB4MhCwEBARwICQEIgxuCB4EJgl2ISwWCRy+CMoEyAaAUAqA7EYcuj0uCZoMNAgQCBAUCBhQkgRWBZXpuAWOCEYIEgVNbWotXAQEB
+X-IronPort-AV: E=Sophos;i="5.43,368,1503374400"; 
+ d="scan'208,217";a="481435024"
+Received: from mail-qt0-f172.google.com ([209.85.216.172])
+ by mailgate.williams.edu with ESMTP; 14 May 2018 20:01:15 -0400
+Received: by mail-qt0-f172.google.com with SMTP id h2-v6so18589836qtp.7
+ for <swimdive@wso.williams.edu>; Mon, 14 May 2018 17:01:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=williams.edu; s=google;
+ h=from:mime-version:subject:message-id:date:to;
+ bh=aAS73oGCIsmLKoFavJH8583zRoFsNpu7bW6MPcim+Bg=;
+ b=RRXHpgYl5kmznT9m5atO8XRb9YktejJEWT0HUQZtKbOqnxcaC6OqyWDswz5AbHyJrk
+ sOzw7KcytetFlKww3VnZARw+Sq1qdYaSPyPEgba0hvtPaFCLqnOK9kG6JTxp4tfTZ7UI
+ y3DXxmCsBN6113BamfzT3aRS60069K7AOKGF6d7czesOh3AHpHVycsF96xRFzzMhfWco
+ gbc8bhQZ0aSFuGQYkbDPwsSm3ceyVktRySkRt0rsViimCWm7UGtEcwkmOo1JL8D6IRHc
+ ts6uy3bboojfGh6Uwgu8EBcEE36ymLYY/LSKpU6H0SO7mU+mZmz/75SqXDeckXMHjfNB
+ P4Xw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=1e100.net; s=20161025;
+ h=x-gm-message-state:from:mime-version:subject:message-id:date:to;
+ bh=aAS73oGCIsmLKoFavJH8583zRoFsNpu7bW6MPcim+Bg=;
+ b=rasjdj2Jn/QYvdoGjzymHuJOGYcSpiRrURXHcJ3JCjT43gmUfmpNaXFSeu1L+hx/tN
+ LcTWXVW8rbRxlgdbDcfZ5jiHgjzj85XdNFSlDwV4arFfrVerDKO6eVuU9/ZoucAEoy3W
+ +z+skGg6eUn8V3v+nHFk/7e0fEWg/0q5w31le53+iIOeD2DgsaukP78z0OPOLnipaacA
+ gOnMoO3Kblzt1bBPnchofPUDgd7vnYyloOMew8pWy3P3vF9V1v0+8ZStOU7uWFT0NJiK
+ t7IQ06HQW0g/G+LWMvwMsigFrtbgVxVGyHaLtLwp78bfB+hBTsDbQScxHvJNj2930NkA
+ KWeg==
+X-Gm-Message-State: ALKqPwfTpvmuO2VxM9iAgiCqPov1kpHYRa+YKMFRMebxoU1SF/pZlghR
+ QpE4ISMVpJSQN7W06ZDxYU9luVA0jMck4Q==
+X-Received: by 2002:a0c:f64d:: with SMTP id
+ s13-v6mr11137408qvm.105.1526342472478; 
+ Mon, 14 May 2018 17:01:12 -0700 (PDT)
+Received: from [137.165.166.88] ([137.165.166.88])
+ by smtp.gmail.com with ESMTPSA id 29-v6sm9329841qto.42.2018.05.14.17.01.11
+ for <swimdive@wso.williams.edu>
+ (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+ Mon, 14 May 2018 17:01:11 -0700 (PDT)
+From: Timothy Kostolansky <tmk3@williams.edu>
+Mime-Version: 1.0 (Mac OS X Mail 10.3 \(3273\))
+Message-Id: <BB97F80C-FAB9-444C-AE17-08169F2AB80A@williams.edu>
+Date: Mon, 14 May 2018 20:01:11 -0400
+To: swimdive@wso.williams.edu
+X-Mailer: Apple Mail (2.3273)
+Subject: [Swimdive] say goodbye to me
+X-BeenThere: swimdive@wso.williams.edu
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Swim and Dive Team 2017-2018 <swimdive.wso.williams.edu>
+List-Unsubscribe: <http://wso.williams.edu/mailman/options/swimdive_wso.williams.edu>, 
+ <mailto:swimdive-request@wso.williams.edu?subject=unsubscribe>
+List-Post: <mailto:swimdive@wso.williams.edu>
+List-Help: <mailto:swimdive-request@wso.williams.edu?subject=help>
+List-Subscribe: <http://wso.williams.edu/mailman/listinfo/swimdive_wso.williams.edu>, 
+ <mailto:swimdive-request@wso.williams.edu?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============2170687602395235232=="
+Errors-To: swimdive-bounces@wso.williams.edu
+Sender: "Swimdive" <swimdive-bounces@wso.williams.edu>
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - wso-vm.williams.edu
+X-AntiAbuse: Original Domain - williams.edu
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - wso.williams.edu
+X-Get-Message-Sender-Via: wso-vm.williams.edu: acl_c_authenticated_local_user: mailman/mailman
+X-Authenticated-Sender: wso-vm.williams.edu: mailman@wso.williams.edu
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+
+--===============2170687602395235232==
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail=_7E1F8D68-1962-44B6-B543-710F21D0016A"
+
+
+--Apple-Mail=_7E1F8D68-1962-44B6-B543-710F21D0016A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Hey all,
+
+Most (if not all) of the senior guys and some of the senior girls are =
+gonna be around tomorrow night at 9pm and we=E2=80=99d love to have a =
+little nacho fiesta with anyone who can make it during this crazy time.  =
+We=E2=80=99d love a chance to say goodbye to you! .. particularly if you =
+can=E2=80=99t make it back to celebrate graduation with us.  If you =
+can=E2=80=99t make it tho, no worries!
+
+Best of luck with finals, much love.
+
+Se=C3=B1ors
+
+
+
+WHO: you and us
+WHAT: =E2=80=98chos
+WHERE: =E2=80=9982 grill
+WHEN: Tomorrow (Tuesday) at 9:00pm
+WHY: so we can say bye bye :(
+
+
+--=20
+Timothy M. Kostolansky
+Williams College =E2=80=9918
+Candidate for B.A. in Mathematics=20
+tmk3@williams.edu | (908) 956-4528
+
+
+--Apple-Mail=_7E1F8D68-1962-44B6-B543-710F21D0016A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div class=3D"">Hey all,</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Most (if not all) of the senior guys =
+and some of the senior girls are gonna be around tomorrow night at 9pm =
+and we=E2=80=99d love to have a little nacho fiesta with anyone who can =
+make it during this crazy time. &nbsp;We=E2=80=99d love a chance to say =
+goodbye to you! .. particularly if you can=E2=80=99t make it back to =
+celebrate graduation with us. &nbsp;If you can=E2=80=99t make it tho, no =
+worries!</div><div class=3D""><br class=3D""></div><div class=3D"">Best =
+of luck with finals, much love.</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Se=C3=B1ors</div><div class=3D""><br =
+class=3D""></div><div class=3D""><br class=3D""></div><div class=3D""><br =
+class=3D""></div><div class=3D"">WHO: you and us</div><div =
+class=3D"">WHAT: =E2=80=98chos</div><div class=3D"">WHERE: =E2=80=9982 =
+grill</div><div class=3D"">WHEN: Tomorrow (Tuesday) at 9:00pm</div><div =
+class=3D"">WHY: so we can say bye bye :(</div><div class=3D""><br =
+class=3D""></div><div class=3D""><br class=3D""></div><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; text-align: =
+start; text-indent: 0px; text-transform: none; white-space: normal; =
+word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space;" class=3D""><div style=3D"color: rgb(0, 0, 0); =
+letter-spacing: normal; text-align: start; text-indent: 0px; =
+text-transform: none; white-space: normal; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">--&nbsp;<br class=3D"">Timothy M. Kostolansky<br =
+class=3D"">Williams College =E2=80=9918<br class=3D"">Candidate for B.A. =
+in Mathematics&nbsp;<br class=3D""><a href=3D"mailto:tmk3@williams.edu" =
+class=3D"">tmk3@williams.edu</a> | (908) 956-4528</div></div>
+</div>
+
+<br class=3D""></body></html>=
+
+--Apple-Mail=_7E1F8D68-1962-44B6-B543-710F21D0016A--
+
+
+--===============2170687602395235232==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Swimdive mailing list
+Swimdive@wso.williams.edu
+http://wso.williams.edu/mailman/listinfo/swimdive_wso.williams.edu
+
+--===============2170687602395235232==--
+

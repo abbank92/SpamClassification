@@ -1,0 +1,204 @@
+Delivered-To: abbank92@gmail.com
+Received: by 2002:a17:90a:6544:0:0:0:0 with SMTP id f4-v6csp3763460pjs;
+        Sun, 13 May 2018 23:59:48 -0700 (PDT)
+X-Google-Smtp-Source: AB8JxZpDLdVFjd8k8YErlZQQiSXlN1Y4e5iEun2yilTOU0ZVkver8Zfo3U9JsUVFSZh25mjMKboq
+X-Received: by 2002:a17:902:7487:: with SMTP id h7-v6mr8432117pll.154.1526281188605;
+        Sun, 13 May 2018 23:59:48 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1526281188; cv=none;
+        d=google.com; s=arc-20160816;
+        b=qs9pMWBXaRJoSOM2pTggxrbcnfsLn0QcZXzmYokFRCV3NajGCXD2BrpxWSB8eTU8QU
+         HxLIY0yNTKh+8/somKESwkZ3KtRFU5M03AQy+t8t9W4CNinrWZ/37ShHztpoDgjfRcxS
+         vDJuGJ+IbM5283f96BnDh8L6PqKNIBhRRlmGGMQClR+IYCT5CdTDs8ZFE4ckMsm8sLIi
+         C/mgzUYi/5b/VrLQVwbLoUIsoL0UVryCCMUjlYfuX6fy/JVBtLWJbg6VePAs4uOKjD34
+         y9MOE7Ma/8iN0C+2bADbnwLtNhcgHiLIv5RnfzXCqkaQpGObNnYxbtFYljwtNEYMBox8
+         HUpQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=user-agent:from:subject:message-id:date:mime-version
+         :arc-authentication-results;
+        bh=ce8mj8PFe0vTmCFt5L1Qj6mIKAFSj9ChjmIQvkIwiKs=;
+        b=LYcePM6FAeaDBguPKdOJv2y4TSw88L1gARD0CO6cCAKp1nOCCGbqz0DgefTLDB13ov
+         VN1hEowCZzpvBQlE3rtuECvBK3k6JOU474Yli/lpxAK4M6yPKGhUEYrE1S1H0ngHFQAx
+         zIuEX+Of38w/pD0WEeFbrteAHcvkKzjbMfMBPcE9KQwYAFhPC5zoqYtzPCjaOW9gfyYe
+         X5u6KOscQh9zfbQODlT3pkdnnb82NfsCPmEFvpWpxyzqBLpkTYd7oUgTVXS1RpNGtukl
+         J9YmVSSSs0y5PSdJrEoBkDrgprsEUQ5vdePzrzb271HnkKrYICpigW6Rs3wrabM+uUXk
+         uXrw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of accounts@supptrt.space designates 198.54.122.45 as permitted sender) smtp.mailfrom=accounts@supptrt.space
+Return-Path: <accounts@supptrt.space>
+Received: from NEW-01-1.privateemail.com (new-01-1.privateemail.com. [198.54.122.45])
+        by mx.google.com with ESMTPS id s13-v6si8520743plp.350.2018.05.13.23.59.47
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 13 May 2018 23:59:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of accounts@supptrt.space designates 198.54.122.45 as permitted sender) client-ip=198.54.122.45;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of accounts@supptrt.space designates 198.54.122.45 as permitted sender) smtp.mailfrom=accounts@supptrt.space
+Received: from MTA-07.privateemail.com (unknown [10.20.147.17])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by NEW-01.privateemail.com (Postfix) with ESMTPS id 461326012A;
+	Mon, 14 May 2018 06:59:47 +0000 (UTC)
+Received: from MTA-07.privateemail.com (localhost [127.0.0.1])
+	by MTA-07.privateemail.com (Postfix) with ESMTP id E907760047;
+	Mon, 14 May 2018 02:59:46 -0400 (EDT)
+Received: from [192.168.8.103] (unknown [10.20.151.201])
+	by MTA-07.privateemail.com (Postfix) with ESMTPA id 8D24360044;
+	Mon, 14 May 2018 06:59:26 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="----=_NextPart_22804688.841786712008"
+MIME-Version: 1.0
+Date: Mon, 14 May 2018 18:59:24 +1200
+Message-ID: <cfddcfe9-35fb-44a0-954b-5baa5a7ddea3@getmailbird.com>
+Subject: ATTENTION ! CARD FAILURE
+From: "Squarespace support" <accounts@supptrt.space>
+User-Agent: Mailbird/2.5.8.0
+X-Mailbird-ID: cfddcfe9-35fb-44a0-954b-5baa5a7ddea3@getmailbird.com
+X-Antivirus: Avast (VPS 180513-4, 05/14/2018), Outbound message
+X-Antivirus-Status: Clean
+X-Virus-Scanned: ClamAV using ClamSMTP
+
+------=_NextPart_22804688.841786712008
+Content-Type: text/plain;
+ charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+[Squarespace]
+=C2=A0
+
+=C2=A0
+Hello,=C2=A0
+
+Due to a problem with your card, we have been unable to charge your account=
+ $42.99 and applicable taxes for your next month of Squarespace premium mem=
+bership. Update your card below to avoid suspension and deletion of your ac=
+count.
+
+=C2=A0
+Update Membership [http://bit.do/eggMN]
+
+=C2=A0
+Best regards,
+=C2=A0
+Squarespace Team
+
+=C2=A0=C2=A0
+
+---
+This email has been checked for viruses by Avast antivirus software.
+https://www.avast.com/antivirus
+
+------=_NextPart_22804688.841786712008
+Content-Type: text/html;
+ charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div id=3D"__MailbirdStyleContent" style=3D"font-size: 10pt;font-family: Ar=
+ial;color: #000000"><h1>
+
+
+
+
+
+
+
+
+<span style=3D"font-size: 10pt">
+<img alt=
+=3D"Squarespace" id=3D"yiv1116946922gmail-m_-8631531367319036780gmail-m_619=
+045732327300201gmail-m_-8635700818749569927m_6561302461403882304gmail-m_-64=
+65809162153861288m_-7153678392420948495m_766044535842774311gmail-m_52047776=
+36662411727gmail-yiv5131996967m_-6904170248741060496gmail-yui_3_16_0_ym19_1=
+_1477653465259_2383" src=3D"http://static.squarespace.com/universal/images-=
+v6/mail-assets/logo.gif" width=3D"161" border=3D"0" height=3D"23" style=3D"=
+font-variant-ligatures: normal; orphans: 2; widows: 2; color: rgb(34, 34, 3=
+4); font-family: arial, sans-serif; border-style: none; border-width: 0px;"=
+></img><br style=3D"font-variant-ligatures: normal; orphans: 2; widows: 2; =
+color: rgb(34, 34, 34); font-family: arial, sans-serif;">
+&nbsp;</span><div=
+ style=3D"font-size: 10pt;font-variant-ligatures: normal;font-weight: 400;o=
+rphans: 2;widows: 2;color: rgb(34, 34, 34);font-family: arial, sans-serif">=
+
+<b><br>
+&nbsp;</b></div>
+<div style=3D"font-size: 10pt;font-variant-ligatu=
+res: normal;font-weight: 400;orphans: 2;widows: 2;color: rgb(34, 34, 34);fo=
+nt-family: arial, sans-serif">
+<table cellspacing=3D"0" cellpadding=3D"0">
+=
+<tbody><tr>
+<td class=3D"yiv1116946922gmail-m_-8631531367319036780gmail-m_8=
+47290126463121645m_-5360481214217490959gmail-m_-177948988433361970width323"=
+ width=3D"493" valign=3D"top" align=3D"left" style=3D"font-family: arial, s=
+ans-serif; margin: 0px;">
+<div class=3D"yiv1116946922gmail-m_-8631531367319=
+036780gmail-m_847290126463121645m_-5360481214217490959gmail-m_-177948988433=
+361970font12 yiv1116946922gmail-m_-8631531367319036780gmail-m_8472901264631=
+21645m_-5360481214217490959gmail-m_-177948988433361970line16" style=3D"font=
+-family: arial, helvetica, sans-serif;font-size: 12px;line-height: 16px;col=
+or: rgb(51, 51, 51)">
+<b><span style=3D"font-size: 10pt">Hello,&nbsp;<br>
+<=
+br>
+Due to a problem with your card, we have been unable to charge your acc=
+ount 
+$42.99 and applicable taxes for your next month of Squarespace premiu=
+m 
+membership. Update your card below to avoid suspension and deletion of y=
+our 
+account.</span></b></div>
+</td>
+</tr>
+</tbody></table>
+<div>
+<b><br>
+&=
+nbsp;</b></div><b>
+<div>
+<span style=3D"font-size: 10pt">
+<a rel=3D"nofollo=
+w" target=3D"_blank" style=3D"color: rgb(238, 238, 238); text-decoration: n=
+one; outline: none medium; line-height: normal; display: inline-block; bord=
+er-radius: 20px; border-left-style: none; border-right-style: none; border-=
+top: 1px solid rgb(68, 68, 68); border-bottom-style: none; margin-left: 0px=
+; margin-right: 15px; margin-top: 26px; margin-bottom: 0px; padding-left: 2=
+0px; padding-right: 20px; padding-top: 8px; padding-bottom: 9px; background=
+-color: rgb(46, 46, 46); background-image: none; background-repeat: repeat;=
+ background-position: 0% 0%" href=3D"http://bit.do/eggMN">
+Update Membershi=
+p</a></span></div>
+<div>
+<span style=3D"font-size: 10pt"><br>
+&nbsp;</span>=
+</div>
+</b><div><b>
+<div>
+<span style=3D"font-size: 10pt">Best regards,<br>=
+
+&nbsp;</span></div><span style=3D"font-size: 10pt">
+</span></b><div><b>
+Sq=
+uarespace Team</b></div>
+</div>
+</div>
+<b><span style=3D"font-size: 10pt"><=
+br class=3D"Apple-interchange-newline">&nbsp;&nbsp;</span></b></h1><div cla=
+ss=3D"mb_sig"></div></div><div id=3D"DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2">=
+<br />
+<table style=3D"border-top: 1px solid #D3D4DE;">
+	<tr>
+        <td style=3D"width: 55px; padding-top: 13px;"><a href=3D"https://ww=
+w.avast.com/sig-email?utm_medium=3Demail&utm_source=3Dlink&utm_campaign=3Ds=
+ig-email&utm_content=3Demailclient" target=3D"_blank"><img src=3D"https://i=
+pmcdn.avast.com/images/icons/icon-envelope-tick-round-orange-animated-no-re=
+peat-v1.gif" alt=3D"" width=3D"46" height=3D"29" style=3D"width: 46px; heig=
+ht: 29px;" /></a></td>
+		<td style=3D"width: 470px; padding-top: 12px; color: #41424e; font-size: =
+13px; font-family: Arial, Helvetica, sans-serif; line-height: 18px;">Virus-=
+free. <a href=3D"https://www.avast.com/sig-email?utm_medium=3Demail&utm_sou=
+rce=3Dlink&utm_campaign=3Dsig-email&utm_content=3Demailclient" target=3D"_b=
+lank" style=3D"color: #4453ea;">www.avast.com</a>
+		</td>
+	</tr>
+</table><a href=3D"#DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2" width=3D"1" heigh=
+t=3D"1"> </a></div>
+------=_NextPart_22804688.841786712008--
+

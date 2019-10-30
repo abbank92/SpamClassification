@@ -1,0 +1,906 @@
+Delivered-To: abb3@williams.edu
+Received: by 2002:a4f:e693:0:0:0:0:0 with SMTP id p19-v6csp442215ivn;
+        Wed, 9 May 2018 08:13:48 -0700 (PDT)
+X-Google-Smtp-Source: AB8JxZrd7rY9hFcNqX9fUTFaZ+XzYAC8IGmF5A9JF+OsgNSGgoYZOtFNQkbdA2J9KjoSh8fn5DEZ
+X-Received: by 2002:aed:3ead:: with SMTP id n42-v6mr41744559qtf.56.1525878828298;
+        Wed, 09 May 2018 08:13:48 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1525878828; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FZgAqmgKpMsXez7m5kB62q6omkF9bOUKI3O/wqhjEUdARfwJ0try9CuspG1ie35OIU
+         8zRPZs6RZni8ztjI3eSrTtxK1hRNQQd5qYGZcRn/L7LEtNmsnG3w2Kw9WCKcBX2irD5C
+         BA8HjGQX7zmzDNRoyJ4sncPGnXW1c+273k5XSx7ITcvJfhGv0zeNsPd+TxKJX65GMzwM
+         4y0pZgI2R2C2+pVLubb/cxB9OIFm73eIEplyxOqXn0ASutE60XLk3luNSsSILnBpgeka
+         yBpbpXVAHJeBS65KGgRxv/gEXuuwaK9r5W26Ar24GUkOB99o/rZtm/KPN8Zzb3i3cL+h
+         FM/Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:message-id:to:subject:reply-to:mime-version:from
+         :date:dkim-signature:arc-authentication-results;
+        bh=jdAkISoHBwsXboXJUCgTl36RciRh0w7FtfLu8fpB6xU=;
+        b=MaG+ixfrs7V67r1xmVCnNHilm35nuqCHsFAbTEPrjMqTfEkTGf6gpV14HdhCGm0o29
+         M5xAw7I85IW0cyLQM1FiStcKFMNXhxd2Hs5Q3NOTfgqUVZV3PI9NqJYKzGmmbd1AZD4/
+         O91rOpYgm3CPRGpgck4HTufvVqMqr8B6xSj7i4s93sL6sO8eRG8Tzfabe0R3mWYAvrxi
+         BR8BcqJdpN3bVHa2+MxMH1AIRjfGN5Mf7CDbKK0oEMi8jDOMMDTtTyBJ/b96kcUB6Q8c
+         sbI7ecOl1GVQ6Lx2PDpzVPEEYhzPw0Ff+VJIqjGCQ2pyPEii8xK7Am2lRt4oxRmhwrEr
+         jg1A==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@sendgrid.net header.s=smtpapi header.b=njj+vfaN;
+       spf=pass (google.com: domain of bounces+6893486-b278-abb3=williams.edu@sendgrid.net designates 168.245.78.231 as permitted sender) smtp.mailfrom=bounces+6893486-b278-abb3=williams.edu@sendgrid.net
+Return-Path: <bounces+6893486-b278-abb3=williams.edu@sendgrid.net>
+Received: from o16824578x231.outbound-mail.sendgrid.net (o16824578x231.outbound-mail.sendgrid.net. [168.245.78.231])
+        by mx.google.com with ESMTPS id b10-v6si2667188qtg.317.2018.05.09.08.13.47
+        for <abb3@williams.edu>
+        (version=TLS1_2 cipher=ECDHE-RSA-CHACHA20-POLY1305 bits=256/256);
+        Wed, 09 May 2018 08:13:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+6893486-b278-abb3=williams.edu@sendgrid.net designates 168.245.78.231 as permitted sender) client-ip=168.245.78.231;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@sendgrid.net header.s=smtpapi header.b=njj+vfaN;
+       spf=pass (google.com: domain of bounces+6893486-b278-abb3=williams.edu@sendgrid.net designates 168.245.78.231 as permitted sender) smtp.mailfrom=bounces+6893486-b278-abb3=williams.edu@sendgrid.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=sendgrid.net; 
+	h=content-type:from:mime-version:reply-to:subject:to:list-unsubscribe; 
+	s=smtpapi; bh=konyu4tj8EDAxpYqB+1MEReSIFE=; b=njj+vfaNwCOUyxuV0Q
+	0Rcj4Z21v24B44mXXRVPaI1FnMp4I7DyQU/nyQ/TcQqek1kSDmPqU7bT4EfTk6a9
+	srlUCkhCspa48kBs3SaWwpGwXQy6n6Az8F7INrlnYV8xTklV9Qaql2dDQHryhQU4
+	5xTJtNxA8MxLJFy+hZmfDJEbQ=
+Content-Type: multipart/alternative; boundary=61a0bb6c13a24701cd99696ae0cc004cf99ae6fc54be1cbb59f52a042c3b
+Date: Wed, 09 May 2018 15:13:46 +0000 (UTC)
+From: "HUSEL" <help@husel.com>
+Mime-Version: 1.0
+Reply-To: help@husel.com
+Subject: =?UTF-8?Q?=F0=9F=9A=A9Coach_On_the_Side_=F0=9F=9A=A9?=
+To: abb3@williams.edu
+Message-ID: <bvAs2n3NSsOS3tzx-J6X4A@ismtpd0009p1iad1.sendgrid.net>
+List-Unsubscribe: <mailto:unsubscribe@sendgrid.net?subject=https://u6893486.ct.sendgrid.net/asm/unsubscribe/*q*user_id=6893486*a*data=zZA9ykKPq0R3b48TovZ4w3SXLi2vjuUkTn0DxnJ-qYCXQQDEf749PbRV9pX03118Tw2_qNj3jLLHlGLURWSmll5LhSrnfAtSJh-0giofN9wqOmoQq05mlkj-SdM3doV8dx0EHrrDZ1Oo10nSGqfJq5fhfMKp6n2Si1G2TzMfyqWCnz2SsTdCTG6RvifxqyMEwynNbw8U6_3jVJqpbKIVLxQf6CISEtEUtNsn8aZJExNBzjoY1D7Y_MCELNKMS1yAhgTDKRzz5uudgnZYtKeTxCZYIWt1iAN357R-2z_EW5Qgo60cMKn3gt_oBELXSTc3uzCygKF2t1i7PccIAGC9UFaSSiZpHldnznQV2j9yb_tazYpvypGaTRApYcMEBEqg5OJRGeAB3J_Nr8GwepTi29ezdNvmRd0BjypSnL2xArfzj_gvRHf719PzBX4ySONKcr40AdPyNv6wLFNhZ25_q7qYdl3kRsbk4lq0d8ik5n44lJk7n8IwwIHlLUcwkK5Ji4kNep5aAo7XbKREXm4VSYiaIldaGxcEXkIaApVc2pXeCnNNZ9wwWlQ8gT2Zqu9E>
+X-SG-EID: WlZPaGFKX+7y4W92UAciE6FdCJ6pZXdU/Ba035BwU94fmqcaqpd1fgGzWYkqE1dAmtRw4kcP+AZTOD
+ dgmMdw87diy7OiNYXhXhfAT7nD02N6KnpJCpoDZYcAnek8dEH73loU1hJO9S+BwNl6jU8r9at9vduD
+ NJW6nZrSuqsJxYoap1/k53vZ9FefozekJAyqz0uNJGBcwNgQx11sHT2KrA==
+X-SG-ID: Z2FxZazunBjVeNuNdzHDqrF8mxuCpi0krmont6YQrP0sXhGFsG4WkuXxl5BRQt3095abGEQaO1FgCN
+ l8EbH2APR3o23SvtYgdzL09B23o4pn/bl69A5Uo/g5kOKfB20C0cDMeI2w+rqQkGvBbUOoYKM1Twgv
+ j1hx1KUmcQZiduLcBKuyTffNuQMYA9OBzvAB
+
+--61a0bb6c13a24701cd99696ae0cc004cf99ae6fc54be1cbb59f52a042c3b
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+Mime-Version: 1.0
+
+Founded by Former College Athletes. Online Private Coaching Platform.
+
+Hi,
+
+We are three former college athletes who wanted to reach out to you persona=
+lly regarding HUSEL, a company we recently founded.=C2=A0 HUSEL=C2=A0is an =
+online platform that allows young athletes to book collegiate players for i=
+ndividual and small group training across all sports.
+
+Working a summer job, but want side income?
+	In school, but would like to coach on the side?
+	Starting a full-time job soon, but want=C2=A0to stay connected to the spor=
+t?
+
+Interested?=C2=A0 We are launching for ALL SPORTS in June 2018.=C2=A0=C2=A0=
+Sign-Up Now=C2=A0for Free!=C2=A0
+
+SIGN-UP HERE https://husel.wufoo.com/forms/z1drn2070phhcn0/
+
+WHY HUSEL?
+
+Grow your reach with Husel resources and advertising support. Young athlete=
+s and their families can find and book individual training with you due to =
+a special data intelligence tool that=C2=A0we built which=C2=A0solves the p=
+roblem of=C2=A0connecting local athletes in the community with higher level=
+ coaches.
+
+Choose your own schedule and hourly rates. HUSEL's platform allows coaches =
+and athletes to easily schedule sessions according to your availability and=
+ location. Flexible and easy-to-update interface if you move during the sum=
+mer or your schedule changes.=C2=A0=C2=A0
+
+Give back to your sport by developing local athletes. In order for athletes=
+ in your community to be their best, they need to be trained by someone lik=
+e you. Currently, over 66% of youth coaches in the US HAVE=C2=A0NOT played =
+the sport they teach.=C2=A0=C2=A0
+
+Earn money and stay=C2=A0connected with your passion.=C2=A0=C2=A0HUSEL=C2=
+=A0Coaches also get access to fast payments, educational resources, seconda=
+ry insurance, and support.=C2=A0 View more at www.husel.com.
+
+HOW DOES IT WORK?
+
+CREATE YOUR PROFILE
+
+HUSEL=C2=A0is seeking collegiate athletes and championship coaches who want=
+ to help the younger athletes in their communities elevate their game.
+
+Show your interest=C2=A0by clicking the free "SIGN-UP HERE" button below.=
+=C2=A0=C2=A0
+
+OPEN FOR BOOKING
+
+Freedom to choose your schedule, training locations, and billable rates.=C2=
+=A0 As a HUSEL=C2=A0Coach, you keep 85% of your earnings - the other 15% co=
+vers credit card and platform costs, support, and promotion.=C2=A0
+
+GET SUPPORT
+
+We connect you with educational resources and continually advertise to brin=
+g you more athletes to coach. You get access to a whole team dedicated to h=
+elping you elevate an athlete's game.
+
+Join the HUSEL=C2=A0Coaching Revolution!
+
+SIGN-UP HERE https://husel.wufoo.com/forms/z1drn2070phhcn0/
+HUSEL
+
+1775 Tysons Blvd 5th Floor, Tysons, VA 22102=20
+
+Unsubscribe https://u6893486.ct.sendgrid.net/asm/unsubscribe/?user_id=3D689=
+3486&data=3DzZA9ykKPq0R3b48TovZ4w3SXLi2vjuUkTn0DxnJ-qYCXQQDEf749PbRV9pX0311=
+8Tw2_qNj3jLLHlGLURWSmll5LhSrnfAtSJh-0giofN9wqOmoQq05mlkj-SdM3doV8dx0EHrrDZ1=
+Oo10nSGqfJq5fhfMKp6n2Si1G2TzMfyqWCnz2SsTdCTG6RvifxqyMEwynNbw8U6_3jVJqpbKIVL=
+xQf6CISEtEUtNsn8aZJExNBzjoY1D7Y_MCELNKMS1yAhgTDKRzz5uudgnZYtKeTxCZYIWt1iAN3=
+57R-2z_EW5Qgo60cMKn3gt_oBELXSTc3uzCygKF2t1i7PccIAGC9UFaSSiZpHldnznQV2j9yb_t=
+azYpvypGaTRApYcMEBEqg5OJRGeAB3J_Nr8GwepTi29ezdNvmRd0BjypSnL2xArfzj_gvRHf719=
+PzBX4ySONKcr40AdPyNv6wLFNhZ25_q7qYdl3kRsbk4lq0d8ik5n44lJk7n8IwwIHlLUcwkK5Ji=
+4kNep5aAo7XbKREXm4VSYiaIldaGxcEXkIaApVc2pXeCnNNZ9wwWlQ8gT2Zqu9E - Unsubscri=
+be Preferences https://u6893486.ct.sendgrid.net/asm/?user_id=3D6893486&data=
+=3D3x6uc2ju2PTLvpD22HcLkaOkTZnKCjlOAvYM2TQvEETtrlnR42zq9dFAbZ5p2RsPeYU8t0I8=
+vK1cWzsHS5CKJ60wWZr_srDsWSxSXdu2mvG2O_JWhCiQ103bU_zwUyeAFX7OX0Jla0fFEXyW0Cm=
+-jYvlaKRfthCIroNELdEnbfcwDz1BE6z9esCRoOe0GfFysg0HGMQhDYQn_ePzKOYAHpyK6qfbMY=
+Bf38LsvaUPF9Gq_hgcIhPEtNF5vVMOnaDReq3PWOo0Wdd6gV91iR2agMOGzOvVqV48cjOR2Hi_O=
+3yum7ooqTjSBl3RvQn4pIne1HwMOPz4voREZFfeYKjQYQqbqLJZ8EehsY2WJrXavSHSsn3QRy9v=
+LvoKZCohRw-Rzttn1npV6iiE_IDqOvLvgMbe1blhZxRZPdobq4o6kN3hapTkLC3FoiISdkl9Ckv=
+elqnRmMcsuLKRzR-eBfYC6qWbN3EyW3ekdjPv90n_vpNAivTz2u-AcFBpiWdElxWcGF8YjGAC7p=
+MHMqJPHYCf9ehIn7jmqGb95htGIHvNxiE=3D=
+
+--61a0bb6c13a24701cd99696ae0cc004cf99ae6fc54be1cbb59f52a042c3b
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version=3D"2" class=3D"sg-campaigns" xmlns=3D"http://www.=
+w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, minimum-scale=3D1, maximum-scale=3D1" /><!--[if !mso]><!-->
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge" /><!--<![end=
+if]-->
+    <!--[if (gte mso 9)|(IE)]>
+    <xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+    <style type=3D"text/css">
+      body {width: 600px;margin: 0 auto;}
+      table {border-collapse: collapse;}
+      table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+      img {-ms-interpolation-mode: bicubic;}
+    </style>
+    <![endif]-->
+
+    <style type=3D"text/css">
+      body, p, div {
+        font-family: arial;
+        font-size: 14px;
+      }
+      body {
+        color: #000000;
+      }
+      body a {
+        color: #1188E6;
+        text-decoration: none;
+      }
+      p { margin: 0; padding: 0; }
+      table.wrapper {
+        width:100% !important;
+        table-layout: fixed;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      img.max-width {
+        max-width: 100% !important;
+      }
+      .column.of-2 {
+        width: 50%;
+      }
+      .column.of-3 {
+        width: 33.333%;
+      }
+      .column.of-4 {
+        width: 25%;
+      }
+      @media screen and (max-width:480px) {
+        .preheader .rightColumnContent,
+        .footer .rightColumnContent {
+            text-align: left !important;
+        }
+        .preheader .rightColumnContent div,
+        .preheader .rightColumnContent span,
+        .footer .rightColumnContent div,
+        .footer .rightColumnContent span {
+          text-align: left !important;
+        }
+        .preheader .rightColumnContent,
+        .preheader .leftColumnContent {
+          font-size: 80% !important;
+          padding: 5px 0;
+        }
+        table.wrapper-mobile {
+          width: 100% !important;
+          table-layout: fixed;
+        }
+        img.max-width {
+          height: auto !important;
+          max-width: 480px !important;
+        }
+        a.bulletproof-button {
+          display: block !important;
+          width: auto !important;
+          font-size: 80%;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+        .columns {
+          width: 100% !important;
+        }
+        .column {
+          display: block !important;
+          width: 100% !important;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+        }
+      }
+    </style>
+    <!--user entered Head Start-->
+=20=20=20=20
+     <!--End Head user entered-->
+  </head>
+  <body>
+    <center class=3D"wrapper" data-link-color=3D"#1188E6" data-body-style=
+=3D"font-size: 14px; font-family: arial; color: #000000; background-color: =
+#ffffff;">
+      <div class=3D"webkit">
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"10=
+0%" class=3D"wrapper" bgcolor=3D"#ffffff">
+          <tr>
+            <td valign=3D"top" bgcolor=3D"#ffffff" width=3D"100%">
+              <table width=3D"100%" role=3D"content-container" class=3D"out=
+er" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                <tr>
+                  <td width=3D"100%">
+                    <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0">
+                      <tr>
+                        <td>
+                          <!--[if mso]>
+                          <center>
+                          <table><tr><td width=3D"600">
+                          <![endif]-->
+                          <table width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0" style=3D"width: 100%; max-width:600px;" align=3D"cent=
+er">
+                            <tr>
+                              <td role=3D"modules-container" style=3D"paddi=
+ng: 0px 0px 0px 0px; color: #000000; text-align: left;" bgcolor=3D"#ffffff"=
+ width=3D"100%" align=3D"left">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20
+    <table class=3D"module preheader preheader-hide" role=3D"module" data-t=
+ype=3D"preheader" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"100%"
+           style=3D"display: none !important; mso-hide: all; visibility: hi=
+dden; opacity: 0; color: transparent; height: 0; width: 0;">
+      <tr>
+        <td role=3D"module-content">
+          <p>Founded by Former College Athletes.  Online Private Coaching P=
+latform.</p>
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"background-color:transparent;padding:18px 0px 18px 0px=
+;line-height:22px;text-align:inherit;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"transparent">
+            <div style=3D"font-style: normal; font-variant-ligatures: norma=
+l; font-variant-caps: normal; font-weight: 300;"><span style=3D"font-size:1=
+4px;"><span style=3D"font-family:arial,helvetica,sans-serif;"><span style=
+=3D"background-color: rgb(255, 255, 255);">Hi</span><span style=3D"white-sp=
+ace: pre; background-color: rgb(252, 252, 252);">,</span></span></span></di=
+v>
+
+<div style=3D"font-style: normal; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; font-weight: 300; font-family: arial; font-size: 14px; co=
+lor: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">&nbsp;</div>
+
+<div style=3D"font-style: normal; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; font-weight: 300; font-family: arial; font-size: 14px; co=
+lor: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">We are three form=
+er college athletes who wanted to reach out to you personally regarding HUS=
+EL, a company we recently founded.&nbsp; HUSEL&nbsp;is an online platform t=
+hat allows young athletes to book collegiate players for individual and sma=
+ll group training across all sports.</div>
+
+<ul>
+	<li style=3D"font-style: normal; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; font-weight: 300; font-family: arial; font-size: 14px;">W=
+orking a summer job, but want side income?</li>
+	<li style=3D"font-style: normal; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; font-weight: 300; font-family: arial; font-size: 14px;">I=
+n school, but would like to coach on the side?</li>
+	<li style=3D"font-style: normal; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; font-weight: 300; font-family: arial; font-size: 14px;">S=
+tarting a full-time job soon, but want&nbsp;to stay connected to the sport?=
+</li>
+</ul>
+
+<div style=3D"font-style: normal; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; font-family: arial; font-size: 14px; color: rgb(0, 0, 0);=
+ background-color: rgb(255, 255, 255);"><span style=3D"font-weight: 300;">I=
+nterested?&nbsp; W</span><span style=3D"color: rgb(0, 0, 0); font-family: a=
+rial; font-size: 14px; font-style: normal; font-variant-ligatures: normal; =
+font-variant-caps: normal; font-weight: 300; background-color: rgb(255, 255=
+, 255);">e are launching for ALL SPORTS in June 2018.&nbsp;&nbsp;</span><sp=
+an style=3D"font-weight: 300;">Sign-Up </span><u><strong>Now</strong></u><b=
+>&nbsp;</b>for Free!&nbsp;</div>
+        </td>
+      </tr>
+    </table>
+  <table border=3D"0" cellPadding=3D"0" cellSpacing=3D"0" class=3D"module" =
+data-role=3D"module-button" data-type=3D"button" role=3D"module" style=3D"t=
+able-layout:fixed" width=3D"100%"><tbody><tr><td align=3D"center" class=3D"=
+outer-td" style=3D"padding:0px 0px 0px 0px"><table border=3D"0" cellPadding=
+=3D"0" cellSpacing=3D"0" class=3D"button-css__deep-table___2OZyb wrapper-mo=
+bile" style=3D"text-align:center"><tbody><tr><td align=3D"center" bgcolor=
+=3D"#0b0000" class=3D"inner-td" style=3D"border-radius:6px;font-size:16px;t=
+ext-align:center;background-color:inherit"><a style=3D"background-color:#0b=
+0000;border:1px solid #333333;border-color:#0B0000;border-radius:6px;border=
+-width:1px;color:#ffffff;display:inline-block;font-family:arial,helvetica,s=
+ans-serif;font-size:16px;font-weight:normal;letter-spacing:0px;line-height:=
+30px;padding:12px 18px 12px 18px;text-align:center;text-decoration:none" hr=
+ef=3D"https://u6893486.ct.sendgrid.net/wf/click?upn=3DqoZ-2FQXSsU5sZKbTUqJZ=
+ehwWLzSLM3SOgcsBDz11MZdoWZqM5gjcO9-2F94qXvGETP14eZI9v42sseCI7LSXFVY-2FQ-3D-=
+3D_tz8mtbv4ES7nXOmbqlRoYGQewXKMemO3wEFIVIxfwzH5INGUrY6BVOUbgYMEtujtCRDa8UfY=
+ow9TWaNVZXelXxOM0tj8sh9oOYzLfsakM6WK6BnVaMWVOFpKS1-2F-2FgydKWnE-2FBdU2BIjAT=
+csmzqcv17FdQCa9F6CvR6jUGJ2pWxpR6-2FqqzpEi2YvGbXV9E7jgQJqqc3HYAeiPue4BodIoTl=
+z9f35PYcggJlkMmRm5TexmqeeOJpimzcwPB1F0TterTrjj2j9AhI2cWKm7L2oHbKzbStGKSOT0W=
+e-2FUsph6zV8DrZyd3CvOqese8Yaco1COfT4ubuEqyI6x6VjhcJWVvQUVkMC080TYZmyerYu4ET=
+qM7uAFmz19QXTIhpYcvKHcxLCVNtrD3YRvcASFH1oBzXis1aYkpkKe5jQuGI5ZsALQ-2F9RaXpl=
+TwilCArkPcw2V" target=3D"_blank">SIGN-UP HERE</a></td></tr></tbody></table>=
+</td></tr></tbody></table>
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px;line-height:22px;text-align:=
+inherit;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"">
+            <h1 style=3D"text-align: center;">WHY HUSEL?</h1>
+
+<div><span style=3D"background-color: rgb(255, 255, 255); color: rgb(51, 51=
+, 51); cursor: text; font-family: sans-serif, arial, verdana, &quot;trebuch=
+et ms&quot;; font-size: 13px; font-style: normal; font-variant: normal; fon=
+t-weight: 400; line-height: 20.8px;"><u><strong>Grow your reach with Husel =
+resources and advertising support</strong></u>. Young athletes and their fa=
+milies can find and book individual training with you due to a special data=
+ intelligence tool that&nbsp;we built which&nbsp;solves the problem of&nbsp=
+;connecting local athletes in the community with higher level coaches.</spa=
+n></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"background-color: rgb(255, 255, 255); color: rgb(51, 51=
+, 51); cursor: text; font-family: sans-serif, arial, verdana, &quot;trebuch=
+et ms&quot;; font-size: 13px; font-style: normal; font-variant: normal; fon=
+t-weight: 400; line-height: 20.8px;"><u><strong>Choose your own schedule an=
+d hourly rates</strong></u>. HUSEL's platform allows coaches and athletes t=
+o easily schedule sessions according to your availability and location. Fle=
+xible and easy-to-update interface if you move during the summer or your sc=
+hedule changes.&nbsp;&nbsp;</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"background-color: rgb(255, 255, 255); color: rgb(51, 51=
+, 51); cursor: text; font-family: sans-serif, arial, verdana, &quot;trebuch=
+et ms&quot;; font-size: 13px; font-style: normal; font-variant: normal; fon=
+t-weight: 400; line-height: 20.8px;"><strong><u>Give back to your sport by =
+developing local athletes</u></strong>. In order for athletes in your commu=
+nity to be their best, they need to be trained by someone like you. Current=
+ly, over 66% of youth coaches in the US HAVE&nbsp;NOT played the sport they=
+ teach.&nbsp;&nbsp;</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-weight: 600; background: transparent; font-style: =
+normal; font-variant-ligatures: normal; font-variant-caps: normal; font-fam=
+ily: sans-serif, arial, verdana, &quot;trebuchet ms&quot;; font-size: 13px;=
+ color: rgb(51, 51, 51);"><u>Earn money and stay&nbsp;connected with your p=
+assion</u></span><span style=3D"color: rgb(51, 51, 51); font-family: sans-s=
+erif, arial, verdana, &quot;trebuchet ms&quot;; font-size: 13px; font-style=
+: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-w=
+eight: 400; background-color: rgb(255, 255, 255);">.&nbsp;&nbsp;</span><spa=
+n style=3D"background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); cu=
+rsor: text; font-family: sans-serif, arial, verdana, &quot;trebuchet ms&quo=
+t;; font-size: 13px; font-style: normal; font-variant: normal; font-weight:=
+ 400; line-height: 20.8px;">HUSEL&nbsp;Coaches also get access to fast paym=
+ents, educational resources, secondary insurance, and support.&nbsp; View m=
+ore at www.husel.com.</span></div>
+
+<div>&nbsp;</div>
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:16px 0px 0px 0px;line-height:22px;text-align:i=
+nherit;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"">
+            <h1 style=3D"text-align: center;">HOW DOES IT WORK?</h1>
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table  border=3D"0"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"center"
+            width=3D"100%"
+            role=3D"module"
+            data-type=3D"columns"
+            data-version=3D"2"
+            style=3D"padding:0px 0px 0px 0px;box-sizing:border-box;"
+            bgcolor=3D"">
+      <tr role=3D'module-content'>
+        <td height=3D"100%" valign=3D"top">
+            <!--[if (gte mso 9)|(IE)]>
+              <center>
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wid=
+th=3D"100%" style=3D"border-spacing:0;border-collapse:collapse;table-layout=
+: fixed;" >
+                  <tr>
+            <![endif]-->
+=20=20=20=20=20=20=20=20=20=20
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"300.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"300.000"
+            style=3D"width:300.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-0 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"wrapper" role=3D"module" data-type=3D"image" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout=
+: fixed;">
+      <tr>
+        <td style=3D"font-size:6px;line-height:10px;padding:0px 0px 0px 0px=
+;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block;colo=
+r:#000000;text-decoration:none;font-family:Helvetica, arial, sans-serif;fon=
+t-size:16px;max-width:75% !important;width:75%;height:auto !important;" src=
+=3D"https://marketing-image-production.s3.amazonaws.com/uploads/26b671b9b9f=
+7e39ec912e81733d58f739e848be873ab137d6de4ca1d50152b2f48a38b112add0e2c73d196=
+e22e53f028ce82de7f432a11076dd2dc41e142d190.png" alt=3D"" width=3D"225">
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"300.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"300.000"
+            style=3D"width:300.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-1 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px;line-height:22px;text-align:=
+inherit;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"">
+            <h3><strong>CREATE YOUR PROFILE</strong></h3>
+
+<div>HUSEL&nbsp;is seeking collegiate athletes and championship coaches who=
+ want to help the younger athletes in their communities elevate their game.=
+</div>
+
+<div><br>
+Show your interest&nbsp;by clicking the free "SIGN-UP HERE" button below.&n=
+bsp;&nbsp;</div>
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+            <!--[if (gte mso 9)|(IE)]>
+                  <tr>
+                </table>
+              </center>
+            <![endif]-->
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table  border=3D"0"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"center"
+            width=3D"100%"
+            role=3D"module"
+            data-type=3D"columns"
+            data-version=3D"2"
+            style=3D"padding:0px 0px 0px 0px;box-sizing:border-box;"
+            bgcolor=3D"">
+      <tr role=3D'module-content'>
+        <td height=3D"100%" valign=3D"top">
+            <!--[if (gte mso 9)|(IE)]>
+              <center>
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wid=
+th=3D"100%" style=3D"border-spacing:0;border-collapse:collapse;table-layout=
+: fixed;" >
+                  <tr>
+            <![endif]-->
+=20=20=20=20=20=20=20=20=20=20
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"300.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"300.000"
+            style=3D"width:300.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-0 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"wrapper" role=3D"module" data-type=3D"image" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout=
+: fixed;">
+      <tr>
+        <td style=3D"font-size:6px;line-height:10px;padding:0px 0px 0px 0px=
+;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block;colo=
+r:#000000;text-decoration:none;font-family:Helvetica, arial, sans-serif;fon=
+t-size:16px;max-width:75% !important;width:75%;height:auto !important;" src=
+=3D"https://marketing-image-production.s3.amazonaws.com/uploads/f24d5ba186d=
+4edcf62ec2dc771c00d9b694f7c44a019ebdfbfc707b6f1693300291b5e55711b31720e178e=
+21475d32e01486ce80f9105492279e925f1acef6d5.jpg" alt=3D"" width=3D"225">
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"300.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"300.000"
+            style=3D"width:300.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-1 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px;line-height:22px;text-align:=
+inherit;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"">
+            <div>
+<h3><strong>OPEN FOR BOOKING</strong></h3>
+
+<div>Freedom to choose your schedule, training locations, and billable rate=
+s.&nbsp; As a HUSEL&nbsp;Coach, you keep 85% of your earnings - the other 1=
+5% covers credit card and platform costs, support, and promotion.&nbsp;</di=
+v>
+</div>
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+            <!--[if (gte mso 9)|(IE)]>
+                  <tr>
+                </table>
+              </center>
+            <![endif]-->
+        </td>
+      </tr>
+    </table>
+=20=20
+    <table  border=3D"0"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"center"
+            width=3D"100%"
+            role=3D"module"
+            data-type=3D"columns"
+            data-version=3D"2"
+            style=3D"padding:0px 0px 0px 0px;box-sizing:border-box;"
+            bgcolor=3D"">
+      <tr role=3D'module-content'>
+        <td height=3D"100%" valign=3D"top">
+            <!--[if (gte mso 9)|(IE)]>
+              <center>
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wid=
+th=3D"100%" style=3D"border-spacing:0;border-collapse:collapse;table-layout=
+: fixed;" >
+                  <tr>
+            <![endif]-->
+=20=20=20=20=20=20=20=20=20=20
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"300.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"300.000"
+            style=3D"width:300.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-0 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"wrapper" role=3D"module" data-type=3D"image" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout=
+: fixed;">
+      <tr>
+        <td style=3D"font-size:6px;line-height:10px;padding:0px 0px 0px 0px=
+;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block;colo=
+r:#000000;text-decoration:none;font-family:Helvetica, arial, sans-serif;fon=
+t-size:16px;max-width:75% !important;width:75%;height:auto !important;" src=
+=3D"https://marketing-image-production.s3.amazonaws.com/uploads/2f3dbe6b79b=
+cb1185f97b8585c988f01af61347f4d04ff759735cc5202a3c5733b405eea1c0a34fae4adaf=
+8340ab36dec3e7969a643f83b4c32eb07456249606.png" alt=3D"" width=3D"225">
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+      <td width=3D"300.000px" valign=3D"top" style=3D"padding: 0px 0px 0px =
+0px;border-collapse: collapse;" >
+    <![endif]-->
+
+    <table  width=3D"300.000"
+            style=3D"width:300.000px;border-spacing:0;border-collapse:colla=
+pse;margin:0px 0px 0px 0px;"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            align=3D"left"
+            border=3D"0"
+            bgcolor=3D""
+            class=3D"column column-1 of-2
+                  empty"
+      >
+      <tr>
+        <td style=3D"padding:0px;margin:0px;border-spacing:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20
+    <table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: =
+fixed;">
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px;line-height:22px;text-align:=
+inherit;"
+            height=3D"100%"
+            valign=3D"top"
+            bgcolor=3D"">
+            <div>
+<h3>GET SUPPORT</h3>
+
+<div>We connect you with educational resources and continually advertise to=
+ bring you more athletes to coach. You get access to a whole team dedicated=
+ to helping you elevate an athlete's game.<br>
+<br>
+Join the HUSEL&nbsp;Coaching Revolution!</div>
+</div>
+        </td>
+      </tr>
+    </table>
+=20=20
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+      </td>
+    <![endif]-->
+            <!--[if (gte mso 9)|(IE)]>
+                  <tr>
+                </table>
+              </center>
+            <![endif]-->
+        </td>
+      </tr>
+    </table>
+  <table border=3D"0" cellPadding=3D"0" cellSpacing=3D"0" class=3D"module" =
+data-role=3D"module-button" data-type=3D"button" role=3D"module" style=3D"t=
+able-layout:fixed" width=3D"100%"><tbody><tr><td align=3D"center" class=3D"=
+outer-td" style=3D"padding:0px 0px 0px 0px"><table border=3D"0" cellPadding=
+=3D"0" cellSpacing=3D"0" class=3D"button-css__deep-table___2OZyb wrapper-mo=
+bile" style=3D"text-align:center"><tbody><tr><td align=3D"center" bgcolor=
+=3D"#0b0000" class=3D"inner-td" style=3D"border-radius:6px;font-size:16px;t=
+ext-align:center;background-color:inherit"><a style=3D"background-color:#0b=
+0000;border:1px solid #333333;border-color:#0b0000;border-radius:6px;border=
+-width:1px;color:#ffffff;display:inline-block;font-family:arial,helvetica,s=
+ans-serif;font-size:16px;font-weight:normal;letter-spacing:0px;line-height:=
+30px;padding:12px 18px 12px 18px;text-align:center;text-decoration:none" hr=
+ef=3D"https://u6893486.ct.sendgrid.net/wf/click?upn=3DqoZ-2FQXSsU5sZKbTUqJZ=
+ehwWLzSLM3SOgcsBDz11MZdoWZqM5gjcO9-2F94qXvGETP14eZI9v42sseCI7LSXFVY-2FQ-3D-=
+3D_tz8mtbv4ES7nXOmbqlRoYGQewXKMemO3wEFIVIxfwzH5INGUrY6BVOUbgYMEtujtCRDa8UfY=
+ow9TWaNVZXelXxOM0tj8sh9oOYzLfsakM6WK6BnVaMWVOFpKS1-2F-2FgydKWnE-2FBdU2BIjAT=
+csmzqcv17FdQCa9F6CvR6jUGJ2pWxpR6-2FqqzpEi2YvGbXV9E7jgQJqqc3HYAeiPue4BodIoTl=
+z9f35PYcggJlkMmRm5Tew3ISIilZoe-2FpKiBdqCNohXC2vFFmu2gZlmka-2B5ZuL8FM7YVVVMq=
+SP1eRTTpYlfMf-2F6Oa-2FZiLW-2FuHBR36vppmPXlEA2Ikl5-2F05Y3OkCg7XpQNLjUcbBySD9=
+f7QEoIkcKv7DsArVhzp0mp1MksImZkwosps1tETuLpqDf-2Fg-2FjEZYlEpGaFpXW9XZ3n2hy5p=
+wa9dWZUtKbr5vaH4uZzDo0V6A" target=3D"_blank">SIGN-UP HERE</a></td></tr></tb=
+ody></table></td></tr></tbody></table><div data-role=3D"module-unsubscribe"=
+ class=3D"module unsubscribe-css__unsubscribe___2CDlR" role=3D"module" data=
+-type=3D"unsubscribe" style=3D"color:#444444;font-size:12px;line-height:20p=
+x;padding:16px 16px 16px 16px;text-align:center"><div class=3D"Unsubscribe-=
+-addressLine"><p class=3D"Unsubscribe--senderName" style=3D"font-family:Ari=
+al,Helvetica, sans-serif;font-size:12px;line-height:20px">HUSEL</p><p style=
+=3D"font-family:Arial,Helvetica, sans-serif;font-size:12px;line-height:20px=
+"><span class=3D"Unsubscribe--senderAddress">1775 Tysons Blvd 5th Floor</sp=
+an>, <span class=3D"Unsubscribe--senderCity">Tysons</span>, <span class=3D"=
+Unsubscribe--senderState">VA</span> <span class=3D"Unsubscribe--senderZip">=
+22102</span> </p></div><p style=3D"font-family:Arial,Helvetica, sans-serif;=
+font-size:12px;line-height:20px"><a class=3D"Unsubscribe--unsubscribeLink" =
+href=3D"https://u6893486.ct.sendgrid.net/asm/unsubscribe/?user_id=3D6893486=
+&data=3DzZA9ykKPq0R3b48TovZ4w3SXLi2vjuUkTn0DxnJ-qYCXQQDEf749PbRV9pX03118Tw2=
+_qNj3jLLHlGLURWSmll5LhSrnfAtSJh-0giofN9wqOmoQq05mlkj-SdM3doV8dx0EHrrDZ1Oo10=
+nSGqfJq5fhfMKp6n2Si1G2TzMfyqWCnz2SsTdCTG6RvifxqyMEwynNbw8U6_3jVJqpbKIVLxQf6=
+CISEtEUtNsn8aZJExNBzjoY1D7Y_MCELNKMS1yAhgTDKRzz5uudgnZYtKeTxCZYIWt1iAN357R-=
+2z_EW5Qgo60cMKn3gt_oBELXSTc3uzCygKF2t1i7PccIAGC9UFaSSiZpHldnznQV2j9yb_tazYp=
+vypGaTRApYcMEBEqg5OJRGeAB3J_Nr8GwepTi29ezdNvmRd0BjypSnL2xArfzj_gvRHf719PzBX=
+4ySONKcr40AdPyNv6wLFNhZ25_q7qYdl3kRsbk4lq0d8ik5n44lJk7n8IwwIHlLUcwkK5Ji4kNe=
+p5aAo7XbKREXm4VSYiaIldaGxcEXkIaApVc2pXeCnNNZ9wwWlQ8gT2Zqu9E">Unsubscribe</a=
+> - <a class=3D"Unsubscribe--unsubscribePreferences" href=3D"https://u68934=
+86.ct.sendgrid.net/asm/?user_id=3D6893486&data=3D3x6uc2ju2PTLvpD22HcLkaOkTZ=
+nKCjlOAvYM2TQvEETtrlnR42zq9dFAbZ5p2RsPeYU8t0I8vK1cWzsHS5CKJ60wWZr_srDsWSxSX=
+du2mvG2O_JWhCiQ103bU_zwUyeAFX7OX0Jla0fFEXyW0Cm-jYvlaKRfthCIroNELdEnbfcwDz1B=
+E6z9esCRoOe0GfFysg0HGMQhDYQn_ePzKOYAHpyK6qfbMYBf38LsvaUPF9Gq_hgcIhPEtNF5vVM=
+OnaDReq3PWOo0Wdd6gV91iR2agMOGzOvVqV48cjOR2Hi_O3yum7ooqTjSBl3RvQn4pIne1HwMOP=
+z4voREZFfeYKjQYQqbqLJZ8EehsY2WJrXavSHSsn3QRy9vLvoKZCohRw-Rzttn1npV6iiE_IDqO=
+vLvgMbe1blhZxRZPdobq4o6kN3hapTkLC3FoiISdkl9CkvelqnRmMcsuLKRzR-eBfYC6qWbN3Ey=
+W3ekdjPv90n_vpNAivTz2u-AcFBpiWdElxWcGF8YjGAC7pMHMqJPHYCf9ehIn7jmqGb95htGIHv=
+NxiE=3D">Unsubscribe Preferences</a></p></div>
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if mso]>
+                          </td></tr></table>
+                          </center>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </center>
+=20=20
+<img src=3D"https://u6893486.ct.sendgrid.net/wf/open?upn=3Dtz8mtbv4ES7nXOmb=
+qlRoYGQewXKMemO3wEFIVIxfwzH5INGUrY6BVOUbgYMEtujtCRDa8UfYow9TWaNVZXelXxOM0tj=
+8sh9oOYzLfsakM6WK6BnVaMWVOFpKS1-2F-2FgydKWnE-2FBdU2BIjATcsmzqcv17FdQCa9F6Cv=
+R6jUGJ2pWxpR6-2FqqzpEi2YvGbXV9E7jgQJqqc3HYAeiPue4BodIoTrdw6IVFwXWhqpiG2nl8-=
+2BnfvwK1N5IiY-2B7-2BEO5KuHjuzZWor-2F2SMiI7E5zNhrMStPneuZfrdlbn6LVMA-2FR4HAv=
+Kz18k-2F9fHLAeXmu1qKUoyyr00SZuPFgyhTbgW6vffWqL9KqeFGoJj-2FSYzNWrKj1wTKl7kBk=
+PvokbYc-2FILgcXCw1-2Ftwsqnphqed5W5TxP2Hci7pf3AUCI44QSzxe23qNd0DJlqO0814YGZK=
+mzhu0P5s" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1p=
+x !important;width:1px !important;border-width:0 !important;margin-top:0 !i=
+mportant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0=
+ !important;padding-top:0 !important;padding-bottom:0 !important;padding-ri=
+ght:0 !important;padding-left:0 !important;"/>
+</body>
+</html>
+
+--61a0bb6c13a24701cd99696ae0cc004cf99ae6fc54be1cbb59f52a042c3b--
